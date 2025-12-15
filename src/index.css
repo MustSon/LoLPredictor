@@ -1,0 +1,99 @@
+body {
+  background-color: #2b2e29;
+  color: #f5c26b;
+  font-family: system-ui, sans-serif;
+}
+
+
+.match {
+  background-color: #1f211d;
+  padding: 16px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.teams {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.current-user {
+  background-color: #ffd700;
+}
+
+.current-user-icon {
+  width: 70px;   
+  height: 70px;
+  border-radius: 50px;
+  border: 8px solid #91af0a; 
+
+}
+
+
+.participants-list {
+  list-style: none;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #262925;
+}
+
+.participant:hover {
+  filter: brightness(1.1);
+}
+
+.participant {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  margin-bottom: 6px;
+  border-radius: 8px;
+}
+
+.team-blue {
+  background-color: #089aad;
+}
+
+.team-red {
+  background-color: #680404;
+}
+
+.champion-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.predict-button{
+
+  font-size: 20px;
+  font-weight: bold;
+
+  border: 10px solid black;
+  border-radius: 100px;
+
+  transition: background-color 0.2s, transform 0.2s;
+}
+
+.predict-button:hover{
+background-color: darkblue;
+
+}
+.font-render{
+  font-size: 20px;
+  margin-bottom: 20;
+  font-weight: bold;
+  
+  
+}
+
+.header-font{
+align-items: flex-start;
+font-family: sans-serif;
+font-weight: bold;
+align-items: center;
+}
+
+.predict-result{
+  font-size: 30px;
+}
